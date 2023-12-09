@@ -16,6 +16,7 @@ void deletathead(node*&head){
     head=head->next;
     free(temp);
 }
+
 void display(node*head){
     node*temp=head;
     while(temp!=NULL){
@@ -24,7 +25,12 @@ void display(node*head){
     }cout<<"NULL"<<endl;
 }
 int main()
-{    node*n1=new node(5);
+
+
+{  
+  
+  cout<<"hi";
+    node*n1=new node(5);
     node*head=n1;
     node*n2=new node(6);
     node*n3=new node(3);
